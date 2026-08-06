@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Shop Dashboard</title>
+<link rel="stylesheet" href="shop.css">
+</head>
+
+<body>
+
+<header>
+  <h2>Shop Dashboard</h2>
+  <button onclick="logout()"   id="logoutbtn" >Logout</button>
+</header>
+
+<div class="container">
+
+
+<div class="card">
+  <h3>Add Customer</h3>
+  <input id="cusname" placeholder="Customer Name"><br>
+  <input id="amount" type="number" placeholder="Total Amount"><br> 
+  <input id="pendingAmt" type="number" placeholder="Pending Amount"><br> 
+  <input id="phone" type="number" placeholder="Phone Number" maxlength="10"><br><br>
+  <button onclick="addCustomer()" id="addbtn">Add</button>
+</div>
+
+<div class="card">
+  <h3>Customers</h3>
+  <div id="list"></div>
+</div>
+
+
+</div>
+
+<script src="shop.js"></script>
+
+</body>
+</html>

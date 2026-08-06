@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #000;
+    color: #fff;
+  }
+
+  header {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    border-bottom: 1px solid #333;
+  }
+
+  header h2 {
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  header button {
+    background: #fff;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    color: #000;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+
+
+
+  .container {
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+
+  .card {
+    background: #111;
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 20px rgba(255,255,255,0.05);
+  }
+
+
+  h3 {
+    margin-top: 0;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+  }
+
+
+input {
+    width: 60%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background: #000;
+    color: white;
+    outline: none;
+    margin-left: 21%;
+    text-align: center;
+}
+
+
+  input::placeholder {
+    color: #888;
+  }
+
+
+  input:focus {
+    border-color: white;
+  }
+
+
+  button {
+    padding: 12px;
+   
+    border: none;
+    border-radius: 8px;
+    background: white;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+
+
+#logoutbtn{
+  margin-left: 35%;
+
+}
+
+  .customer {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    background: #000;
+    border: 1px solid #333;
+  }
+
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+
+
+  .paid {
+    color: #fff;
+    font-weight: bold;
+  }
+
+
+  .pending {
+    color: #aaa;
+    font-weight: bold;
+  }
+
+
+  .customer input {
+    margin-top: 10px;
+  }
+
+  #addbtn{
+    margin-left: 35%;
+     width: 30%;
+  }
